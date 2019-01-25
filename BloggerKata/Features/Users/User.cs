@@ -10,7 +10,7 @@ namespace BloggerKata.Features.Users
         public string LastName { get; set; }
         public string UserName { get; set; }
         public int Age { get; set; }
-
-        public List<Blog> Blogs { get; set; }
+        
+        public List<Blog> Blogs { get; set; } = new List<Blog>();
     }
 }
